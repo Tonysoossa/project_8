@@ -19,9 +19,19 @@ body {
 	padding-block:30px;
 	align-items:center
 }
+
+
 .top-header .name {
 	font-size:26px
 }
+
+@media (min-width: 1200px) {
+  .name {
+    font-size: 2.5rem;
+  }
+}
+
+
 .nav ul {
 	display:flex;
 	list-style-type:none;

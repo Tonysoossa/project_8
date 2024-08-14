@@ -22,7 +22,7 @@ body {
 	font-size: 26px;
 }
 
-.nav ul {
+.nav ol {
 	display: flex;
 	list-style-type: none;
 	font-size: 14px;
@@ -146,7 +146,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: calc(1.375rem + 1.5vw);
 }
 .quote__author {
 	font-family: Spectral;
@@ -323,7 +323,7 @@ input[type="submit"] {
 		flex-direction: column;
 		padding-inline: 0;
 	}
-	.top-header .nav, .top-header .nav ul {
+	.top-header .nav, .top-header .nav ol {
 		width: 100%;
 		padding: 0 0 0 0;
 	}
