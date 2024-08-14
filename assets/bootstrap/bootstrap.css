@@ -682,6 +682,7 @@ progress {
     max-width: 1320px;
   }
 }
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -4163,6 +4164,7 @@ fieldset:disabled .btn {
   border-top-right-radius: 0;
 }
 
+
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -4215,7 +4217,7 @@ fieldset:disabled .btn {
   border-color: transparent;
 }
 .nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
+.nav-tabs .nav-item .show .nav-link {
   color: #495057;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
@@ -5756,13 +5758,14 @@ fieldset:disabled .btn {
   width: auto;
   margin: 0.5rem;
   pointer-events: none;
-}
-.modal.fade .modal-dialog {
+} 
+
+.modal .fade .modal-dialog {
   transition: transform 0.3s ease-out;
   transform: translate(0, -50px);
 }
 @media (prefers-reduced-motion: reduce) {
-  .modal.fade .modal-dialog {
+  .modal .fade .modal-dialog {
     transition: none;
   }
 }
@@ -6020,6 +6023,8 @@ fieldset:disabled .btn {
     border-radius: 0;
   }
 }
+
+
 .tooltip {
   position: absolute;
   z-index: 1080;
