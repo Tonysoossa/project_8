@@ -1,9 +1,4 @@
 
-TODO --> Mettre en place le référencement local en utilisant Schema.org.
-https://schema.org/docs/schemas.html 
-
-TODO --> Ajouter les metas pour les réseaux sociaux. (https://www.opengraph.xyz/)
-
 TODO --> Améliorer et argumenter les dires du rapport d’optimisation présentant toutes vos actions et leur impact.
 
 BUG BUG BUG BUG BUG BUG !!!!!!
@@ -11,5 +6,40 @@ BUG BUG BUG BUG BUG BUG !!!!!!
 - FIX  after img resized, quality downgraded  FIX 
 
 
+NOTE OPTIMISATION REPORT NOTE
 
-- NOTE FIX right padding - modal-content width: 100% --- 90%
+NOTE HTML:
+
+---inside head tag :
+
+--add defer and async param inside script tag to async two js files and set the loads of the others two after html full loading 
+--Title tag added
+--meta for social media added (explain what it does)
+
+--- img :
+--files name reduced
+--alt text added 
+--img property changed from jpg/png to webp to optimised the images for web application because its indeed a website 
+
+
+---h1,h2,h3... tags reorganised
+--Put more logical organisation for h tags and add css class with original font-size of h tags text content to match the original website font size
+
+---form
+--added a 'for' param to label tags to match the input 'name' param
+
+---section 
+replaced multiple div tags containing id's by section tags, html code now splited threw more sections (header, about, gallery, etc...)
+
+
+NOTE CSS
+
+---minify css
+--style.css to delete all spacing or element inside files that take data but arent used
+--font-size class matching h tags default size
+
+NOTE JS
+
+---minify js files
+--maugallery minified
+--bundle.min.js files used over bundle.js

@@ -1,29 +1,92 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Nina Carducci</title>
+    <meta charset="UTF-8" />
+    <title>Nina Carducci - Photographe</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
-    <link rel="stylesheet" href="./assets/newstyle.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8" />
-    <script async src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script
-      async
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <script defer src="./assets/newmaugallery.js"></script>
-    <script defer src="./assets/scripts.js"></script>
+    <script src="./assets/maugallery.js" defer></script>
+    <script src="./assets/scripts.js" defer></script>
+
+    <meta property="og:title" content="Nina Carducci - Photographe" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:author" content="Nina Carducci" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Photographe professionnelle à Bordeaux spécialisée dans les mariages, les événements et les portraits."
+    />
+    <meta property="og:image" content="./assets/images/nina.webp" />
+    <meta property="og:url" content="https://tonysoossa.github.io/project_8/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nina Carducci - Photographe" />
+    <meta
+      name="twitter:description"
+      content="Photographe professionnelle à Bordeaux spécialisée dans les mariages, événements et portraits."
+    />
+    <meta name="twitter:image" content="./assets/images/nina.webp" />
+    <meta name="twitter:site" content="@nina Carducci" />
+
+    <script type="application/ld+json">
+      {
+          "@context": "http://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Nina Carducci",
+          "url": "https://tonysoossa.github.io/project_8/"
+          "jobTitle": "Photographe professionnel",
+          "image": "./assets/images/nina.webp",
+          "telephone": "+33 5 56 67 78 89",
+          "email": "contact@ninacarducci.photo",
+          "sameAs" : "https://www.instagram.com/ninacarducci.photo",
+          "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "68 avenue Alsace-Lorraine",
+              "addressLocality": "Bordeaux",
+              "addressRegion": "Nouvelle-Aquitaine",
+              "postalCode": "33200",
+              "addressCountry": "FR"
+          },
+          "OpeningHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                  "lundi",
+                  "mardi",
+                  "mercredi",
+                  "jeudi",
+                  "vendredi"
+              ],
+              "opens": "10:00",
+              "closes": "19:00"
+          },
+          "Prices": {
+          "@type": "Prices"
+          "minPrice": "50€",
+          "maxPrice": "400€",
+          "halfDayPrice": "350€"
+        }
+      }
+    </script>
+
+    <!-- NOTE  -->
   </head>
   <body>
-    <section aria-labelledby="top-header">
     <div class="top-header">
       <h1 class="name font-size-1">Nina Carducci</h1>
       <div class="nav">
@@ -40,11 +103,9 @@
               ><img src="./assets/images/instagram.webp" alt="Logo instagram"
             /></a>
           </li>
-        </0l>
+        </ol>
       </div>
     </div>
-  </section>
-  <section aria-labelledby="header">
     <div id="header">
       <div
         id="carouselExampleIndicators"
@@ -116,10 +177,8 @@
         </button>
       </div>
     </div>
-  </section>
-  <section aria-labelledby="about">
 
-    <div id="about">
+    <section id="about">
       <div class="picture left">
         <img src="./assets/images/nina.webp" alt="Portrait of Nina Carducci" />
       </div>
@@ -141,10 +200,8 @@
           lumière à chaque fois que vous poserez les yeux sur vos photos.
         </p>
       </div>
-    </div>
     </section>
-  <section aria-labelledby="gallery">
-    <div id="gallery">
+    <section id="gallery">
       <h2 class="title font-size-1">Portfolio</h2>
       <div class="container py-3">
         <div class="gallery" style="display: none">
@@ -217,10 +274,9 @@
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
       </div>
-    </div>
-  <section aria-labelledby="service">
+    </section>
 
-    <div id="services">
+    <section id="services">
       <h2 class="title font-size-2">Mes services</h2>
       <div class="container">
         <div class="service">
@@ -264,7 +320,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <div class="quote">
       <figure>
         <blockquote>
@@ -277,10 +333,8 @@
         <figcaption class="quote__author">- Richard Avedon</figcaption>
       </figure>
     </div>
-    </section>
-  <section aria-labelledby="contact">
 
-    <div id="contact">
+    <section id="contact">
       <div class="container">
         <div class="form-container">
           <h2 class="font-size-2">Une question ? Une demande de devis ?</h2>
@@ -306,8 +360,6 @@
           <img src="./assets/images/camera.webp" alt="Camera" />
         </div>
       </div>
-     </div>
     </section>
-   </section>
   </body>
 </html>
