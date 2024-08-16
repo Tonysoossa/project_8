@@ -34,3 +34,6 @@ NOTE CSS
 
 NOTE JS
 
+---minify js files
+--maugallery minified
+--bundle.min.js files used over bundle.js
